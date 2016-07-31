@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server"
   },
-  "author": "TIY",
+  "author": "Jake Willingham",
   "license": "ISC",
   "dependencies": {
     "react": "^15.2.1",

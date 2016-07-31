@@ -1,5 +1,59 @@
+.mdl-layout__header-row {
+  padding: 0 16px 0 30px;
+}
 .mdl--centered {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
+}
+.card-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center;
+  border-radius: 20px;
+}
+.mdl-card--expand {
+  height: 200px;
+}
+.card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: rgba(0, 0, 0, 0.3);
+}
+.card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.card-wide.mdl-card {
+  width: 100%;
+}
+.card-wide > .mdl-card__title {
+  color: #fff;
+  height: 400px;
+}
+.card-wide > .mdl-card__menu {
+  color: #fff;
+}
+.backgroundImagePage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: top;
+}
+.mdl-card__title-text {
+  color: black;
+}
+.mdl-navigation__link:hover {
+  color: #88C043;
+  transition: 0.3s;
+}
+.mdl-button--raised {
+  background: #88C043;
+}
+.buttonPosition {
+  position: absolute !important;
 }
